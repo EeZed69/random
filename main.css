@@ -1,7 +1,7 @@
 @import url('https://assets.namelesshub.com/dist/assets/css/dark.theme.css');
 
 :root {
-    --clr-primary-100: 232, 97%, 85%;
+    --clr-primary-100: 267, 84%, 81%;
         /* #a6e3a1 */
         --clr-primary-200: 199, 76%, 69%;
         /* #618df5 */
@@ -21,23 +21,4 @@
         /* #5e5e64 */
         --clr-neutral-100: 240, 0%, 85%;
         /* #d9d9d9 */
-    --clr-gradient-100: linear-gradient(-45deg, hsl(0, 0%, 0%) 10%, hsl(218, 23%, 9%) 50%);
-    --img-wallpaper-filtered: url('https://assets.namelesshub.com/dist/assets/img/castle.png');
-    --branding: url('https://assets.namelesshub.com/dist/assets/img/nlc-Logo.svg');
-    --unit-025: 0.025rem;
-    --unit-10: 0.1rem;
-    --unit-15: 0.15rem;
-    --unit-25: 0.25rem;
-    --unit-30: 0.3rem;
-    --unit-40: 0.4rem;
-    --unit-50: 0.5rem;
-    --unit-80: 0.8rem;
-    --unit-87: 0.875rem;
-    --unit-100: 1rem;
-    --unit-125: 1.25rem;
-    --unit-150: 1.5rem;
-    --unit-312: 3.125rem;
-    --unit-875: 8.75rem;
-    --unit-2500: 25.00rem;
-    --unit-2687: 26.875rem
 }
