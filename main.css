@@ -1,22 +1,5 @@
-@import url('https://assets.namelesshub.com/dist/assets/css/themes/nmls.centerinterface.theme.css');
+@import url('https://assets.namelesshub.com/dist/assets/css/dark.theme.css');
 
 :root {
     --clr-primary-100: 267, 84%, 81%;
-}
-.desktop-game-interface .state-cont ~ .weapons-cont{
-    bottom: unset !important;
-    right: unset !important;
-    margin-left: 15rem;
-}
-.desktop-game-interface .state-cont ~ .weapons-cont *{
-    transform: unset !important;
-    opacity: 1;
-}
-.desktop-game-interface .state-cont ~ .weapons-cont .ammunition{
-    font-size: 1.5rem !important;
-}
-.desktop-game-interface .state-cont ~ .weapons-cont .mWwn,
-.desktop-game-interface .state-cont ~ .weapons-cont .ammunition:after,
-.desktop-game-interface .state-cont ~ .weapons-cont .list-weapons{
-    display: none;
 }
