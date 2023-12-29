@@ -3,3 +3,7 @@
 :root {
     --clr-primary-100: 267, 84%, 81%;
 }
+
+.desktop-game-interface > .state > .cont-endurance > .endurance-progress {
+    background-image: linear-gradient(to right, #f5c2e7, #b4befe)!important;
+  }
