@@ -24,10 +24,9 @@
 .interface>.background{
     background: url(https://i.ibb.co/F6P4Gd0/imageedit-1-2270348459.png) repeat !important;
     height: 300%!important; 
-    background-position: 0px 0px!important
+    background-position: 0px 0px!;
     -webkit-animation: animate 10s linear infinite!important;
-
-    background-size: auto!important;
+    background-size: initial!important;
 }
 
 .end-modal {
