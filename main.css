@@ -11,3 +11,10 @@
 .hit {
     content: url(https://i.redd.it/y85m31a9icc41.png);
 }
+
+.interface .background{
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
+    height: 300%;
+    background-position: 0px 0px;
+    -webkit-animation: animate 10s linear infinite!important;
+}
