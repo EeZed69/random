@@ -12,3 +12,7 @@
 .hit {
     content: url(https://i.redd.it/y85m31a9icc41.png)!important;
 }
+
+.end-modal {
+    background: var(--img-wallpaper-filtered) repeat !important;
+}
