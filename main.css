@@ -2,6 +2,9 @@
 
 :root {
     --clr-primary-100: 316, 72%, 86%;
+    --clr-primary-200: 199, 76%, 69%;
+    --clr-primary-300: 343, 81%, 75%;
+    --clr-primary-400: 115, 54%, 76%;
     --img-wallpaper-filtered: url(https://i.ibb.co/Pc1w0cN/pink.gif);
 }
 
