@@ -19,3 +19,7 @@
 .end-modal {
     background: url(https://i.ibb.co/WFbMzfg/pink2.jpg) repeat !important;
 }
+
+button.rectangle.item-btn.LEGENDARY {
+    background-color: #f5c861!important;
+}
