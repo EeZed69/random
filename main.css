@@ -5,7 +5,7 @@
     --clr-primary-200: 199, 76%, 69%;
     --clr-primary-300: 343, 81%, 75%;
     --clr-primary-400: 115, 54%, 76%;
-    --img-wallpaper-filtered: url(https://i.ibb.co/JBLS83N/Paper-Cut-Contour.png);
+    --img-wallpaper-filtered: url(https://raw.githubusercontent.com/Gingeh/wallpapers/main/gradients/red_pink.png);
 }
 
 .desktop-game-interface > .state > .cont-endurance > .endurance-progress {
@@ -17,7 +17,7 @@
 }
 
 .end-modal {
-    background: url(https://i.ibb.co/2jH1wGX/Paper-Cut-Contour1.png)!important;
+    background: url(https://raw.githubusercontent.com/Gingeh/wallpapers/main/gradients/red_pink.png)!important;
 }
 
 button.rectangle.item-btn.LEGENDARY {
