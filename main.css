@@ -40,14 +40,18 @@ button.rectangle.item-btn.LEGENDARY {
 
 /*gradient text*/
 .play-content>#play-btn>.text:before, 
-.play-content>#play-btn>.text:after,
 .custom-checkbox > span[data-v-47e1b746],
-.play-content-up>.private-btn:after,
 .head-right>.clan-tag {
     background: -webkit-linear-gradient(45deg, var(--pink), var(--red))!important;
     -webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent!important;
 }
+
+.play-content>#play-btn>.text:after,
+.play-content-up>.private-btn:after {
+    color: #ffffff!important;
+}
+
 
 /*little border on right of weapon selector*/
 .weapons-cont>.list-weapons {
