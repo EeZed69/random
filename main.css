@@ -5,7 +5,10 @@
     --clr-primary-200: 199, 76%, 69%;
     --clr-primary-300: 343, 81%, 75%;
     --clr-primary-400: 115, 54%, 76%;
+    --pink: #f5c2e7;
+    --red: #f38ca9;
     --img-wallpaper-filtered: url(https://raw.githubusercontent.com/Gingeh/wallpapers/main/gradients/red_pink.png);
+    --branding: url('https://media.discordapp.net/attachments/1189907574011723807/1212910704697413712/frieren_bw_round.png?ex=65f38e1e&is=65e1191e&hm=48be66c2951ce3f373d28a1ec925cd1ea77745b0bd9fd131df63fb04e1ce2d43&=&format=webp&quality=lossless&width=287&height=287'); /*frieren :3*/
 }
 
 .desktop-game-interface > .state > .cont-endurance > .endurance-progress {
@@ -23,3 +26,31 @@
 button.rectangle.item-btn.LEGENDARY {
     background-color: #f5c861!important;
 }
+
+/*Home page modifications*/
+
+/*backgrounds of play and create button*/
+.play-content>#play-btn,
+.play-content-up > .private-btn {
+	background: hsl(var(--clr-neutral-800)) !important;
+    border-style: inset !important;
+    border-color: hsl(var(--clr-neutral-900))!important;
+    border-width: 7px;
+}
+
+/*gradient text*/
+.play-content>#play-btn>.text:before, 
+.play-content>#play-btn>.text:after,
+.custom-checkbox > span[data-v-47e1b746],
+.play-content-up>.private-btn:after,
+.head-right>.clan-tag {
+    background: -webkit-linear-gradient(45deg, var(--pink), var(--red))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+
+/*little border on right of weapon selector*/
+.weapons-cont>.list-weapons {
+    border-right: 4px solid hsl(var(--clr-primary-100))!important;
+}
+
